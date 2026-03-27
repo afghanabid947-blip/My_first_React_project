@@ -5,6 +5,7 @@ const App = () => {
     <div>
       <h1>my name is khan</h1>
       <h2>my name is asif</h2>
+      <h2>im a full stack developet</h2>
     </div>
   );
 };
