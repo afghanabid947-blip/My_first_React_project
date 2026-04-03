@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "helvetica neue";
 }
 html,
 body {
   height: 100%;
   width: 100%;
   background-color: #202020;
+  font-family: "Poppins";
 }
 
 .parents {
@@ -75,6 +81,18 @@ body {
   font-size: 21px;
   font-weight: 500;
 }
+.card {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
 .center .tag {
   display: flex;
   margin-top: 10px;
