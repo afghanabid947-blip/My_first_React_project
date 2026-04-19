@@ -1,0 +1,15 @@
+h1 {
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  padding: 30px 20px;
+  margin: 20px;
+}
+
+button {
+  color: aliceblue;
+  padding: 30px 20px;
+  margin: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(87, 90, 90);
+}
